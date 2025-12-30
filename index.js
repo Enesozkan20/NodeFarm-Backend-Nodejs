@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
 
       const output = replaceTemplate(tempProduct, item);
 
-      return res.end(outputg);
+      return res.end(output);
     default:
       return res.end("<h1>Tanimlanmayan yol</h1>");
   }
